@@ -6,7 +6,7 @@ import requests
 listas1 =[]
 pusl_sar = []
 
-def check_time(a):
+def check_time(a : datetime):
     return  datetime.now() < a
 
 def duino ( f1 : str, t : int):
@@ -112,16 +112,21 @@ def skonis(f : str, t : int):
 
 
 def crowl(puslapis : int, formatas : str, laikas : int):
-    match puslapis:
-        case 1:
-            print(" 1 pasirinkimas")
-            print(" Nuskaitoma svetaine Duino.lt")
-            duino(formatas,laikas)
-        case 2:
-            print("2 pasirinkta")
-            print(" Nuskaitoma svetaine Skonis ir kvapas.lt")
-            skonis(formatas, laikas)
-        case _:
-            print("Galimas pasirinkimas int 1 arba 2")
-            print(" 1 - Duino.lt ")
-            print(" 2 - Skonis ir Kvapas.lt ")
+    try:
+        match puslapis:
+            case 1:
+                print(" 1 pasirinkimas")
+                print(" Nuskaitoma svetaine Duino.lt")
+                duino(formatas,laikas)
+            case 2:
+                print("2 pasirinkta")
+                print(" Nuskaitoma svetaine Skonis ir kvapas.lt")
+                skonis(formatas, laikas)
+            case _:
+                print("Galimas pasirinkimas int 1 arba 2")
+                print(" 1 - Duino.lt ")
+                print(" 2 - Skonis ir Kvapas.lt ")
+    except TypeError:
+        print("Neteisingas formatas")
+       # print("Darbas sustabdytas")
+
