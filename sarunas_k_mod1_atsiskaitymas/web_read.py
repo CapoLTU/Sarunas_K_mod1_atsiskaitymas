@@ -2,6 +2,7 @@ from requests import get
 from lxml.etree import HTML
 from datetime import datetime, timedelta
 import json
+import requests
 listas1 =[]
 pusl_sar = []
 
@@ -58,6 +59,7 @@ def duino ( f1 : str, t : int):
             print("Baigesi skirtas laikas")
             break
     print("Darbas baigtas")
+
 
 
 def skonis(f : str, t : int):
