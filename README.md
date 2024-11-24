@@ -2,7 +2,7 @@
 
 ## Suinstaliuioti galima siuo budu:
 ```
-pip install Sarunas_K_mod1_atsiskaitymas
+pip install Sarunas-K-mod1-atsiskaitymas==0.1
 ```
 
 ## Programos veikimo aprašymas:
@@ -28,7 +28,7 @@ Trecias parametras apriboja programos veikimo laika
 ```
 
 ## Pypi repozitorija :
-
+https://pypi.org/project/Sarunas-K-mod1-atsiskaitymas/0.1/
 
 ## Testo rezultatai saugomi Test_results direktorijoje
 
