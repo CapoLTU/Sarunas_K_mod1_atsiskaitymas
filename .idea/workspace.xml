@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b72144f1-4040-4b06-b067-f0c4ca97f36f" name="Changes" comment="Prideta irasymas i file.txt">
+    <list default="true" id="b72144f1-4040-4b06-b067-f0c4ca97f36f" name="Changes" comment="redaguotas main">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sarunas_k_mod1_atsiskaitymas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sarunas_k_mod1_atsiskaitymas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -43,14 +48,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.web_read.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Tautvydas/PycharmProjects/Sarunas_K_mod1_atsiskaitymas"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in test_web_read.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.web_read.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tautvydas/PycharmProjects/Sarunas_K_mod1_atsiskaitymas&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tautvydas\PycharmProjects\Sarunas_K_mod1_atsiskaitymas\Test_results" />
+      <recent name="C:\Users\Tautvydas\PycharmProjects\Sarunas_K_mod1_atsiskaitymas" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -99,7 +112,79 @@
       <option name="project" value="LOCAL" />
       <updated>1732269695296</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Prideta prideta papildoma funkcija &quot;Skonis&quot; ir duomenu irasymas i faila &quot;Skonis_ir_Kvapas.txt&quot;">
+      <option name="closed" value="true" />
+      <created>1732277979700</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732277979700</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Pridetas irasymas ir i .json formato faila. Prideta funkcija tinklapio pasirinkimo nuskaitymui.">
+      <option name="closed" value="true" />
+      <created>1732368648784</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732368648784</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Kodas baigtas, pereinam prie testavimo">
+      <option name="closed" value="true" />
+      <created>1732385003843</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732385003843</updated>
+    </task>
+    <task id="LOCAL-00008" summary="perkeltas main()">
+      <option name="closed" value="true" />
+      <created>1732387893961</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732387893961</updated>
+    </task>
+    <task id="LOCAL-00009" summary="perkeltas main()">
+      <option name="closed" value="true" />
+      <created>1732387914331</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732387914331</updated>
+    </task>
+    <task id="LOCAL-00010" summary="perkeltas main()">
+      <option name="closed" value="true" />
+      <created>1732387931752</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732387931752</updated>
+    </task>
+    <task id="LOCAL-00011" summary="perkeltas main()">
+      <option name="closed" value="true" />
+      <created>1732388378920</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732388378920</updated>
+    </task>
+    <task id="LOCAL-00012" summary="pridetas test_web_read failas">
+      <option name="closed" value="true" />
+      <created>1732393056189</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732393056189</updated>
+    </task>
+    <task id="LOCAL-00013" summary="redaguotas main">
+      <option name="closed" value="true" />
+      <created>1732459477492</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732459477492</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +201,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prideta nuskaitymo FC &quot;duino&quot;" />
     <MESSAGE value="Prideta irasymas i file.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prideta irasymas i file.txt" />
+    <MESSAGE value="Prideta prideta papildoma funkcija &quot;Skonis&quot; ir duomenu irasymas i faila &quot;Skonis_ir_Kvapas.txt&quot;" />
+    <MESSAGE value="Pridetas irasymas ir i .json formato faila. Prideta funkcija tinklapio pasirinkimo nuskaitymui." />
+    <MESSAGE value="Kodas baigtas, pereinam prie testavimo" />
+    <MESSAGE value="perkeltas main()" />
+    <MESSAGE value="pridetas test_web_read failas" />
+    <MESSAGE value="redaguotas main" />
+    <option name="LAST_COMMIT_MESSAGE" value="redaguotas main" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
