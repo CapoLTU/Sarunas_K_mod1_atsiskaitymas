@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b72144f1-4040-4b06-b067-f0c4ca97f36f" name="Changes" comment="redaguotas main">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="b72144f1-4040-4b06-b067-f0c4ca97f36f" name="Changes" comment="redaguotas main, baigtas setup failas ir sukurtas requirements failas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sarunas_k_mod1_atsiskaitymas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sarunas_k_mod1_atsiskaitymas/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732459477492</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="redaguotas main, baigtas setup failas ir sukurtas requirements failas">
+      <option name="closed" value="true" />
+      <created>1732462543530</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732462543530</updated>
+    </task>
+    <task id="LOCAL-00015" summary="redaguotas main, baigtas setup failas ir sukurtas requirements failas">
+      <option name="closed" value="true" />
+      <created>1732462576223</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732462576223</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +220,8 @@
     <MESSAGE value="perkeltas main()" />
     <MESSAGE value="pridetas test_web_read failas" />
     <MESSAGE value="redaguotas main" />
-    <option name="LAST_COMMIT_MESSAGE" value="redaguotas main" />
+    <MESSAGE value="redaguotas main, baigtas setup failas ir sukurtas requirements failas" />
+    <option name="LAST_COMMIT_MESSAGE" value="redaguotas main, baigtas setup failas ir sukurtas requirements failas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
