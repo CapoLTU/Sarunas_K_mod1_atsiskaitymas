@@ -2,6 +2,7 @@ from requests import get
 from lxml.etree import HTML
 from datetime import datetime, timedelta
 import json
+import csv
 import requests
 listas1 =[]
 pusl_sar = []
@@ -46,6 +47,13 @@ def duino ( f1 : str, t : int):
                     with open("Duino.txt", "a", encoding="utf-8") as irasimas_f:
                         irasimas_f.write(str(i) + "\n")
                         irasimas_f.close()
+            elif f1 == ".csv":
+                for i in listas:
+                    with open('Duino.csv', 'a', encoding='UTF8', newline='')  as irasimas_f:
+                        field_names = ['Produktas : ', 'Kaina : ' ]
+                        writer = csv.DictWriter(irasimas_f, fieldnames=field_names)
+                        writer.writerow(i)
+
             elif f1 == ".json":
                 for i in listas:
                     json_object = json.dumps(i, indent=2)
@@ -54,7 +62,7 @@ def duino ( f1 : str, t : int):
                         irasymas_f.close()
             else :
                 print("Neteisingai pasirinktas formatas")
-                print("Galimi formatai: .json arba .txt")
+                print("Galimi formatai: .json arba .txt arba .csv")
         else:
             print("Baigesi skirtas laikas")
             break
@@ -95,6 +103,14 @@ def skonis(f : str, t : int):
                     with open("Skonis_ir_Kvapas.txt", "a", encoding="utf-8") as irasimas_f:
                         irasimas_f.write(str(i) + "\n")
                         irasimas_f.close()
+
+            elif f == "Skonis_ir_Kvapas.csv":
+                for i in listas:
+                    with open('.csv', 'a', encoding='UTF8', newline='')  as irasimas_f:
+                        field_names = ['Produktas : ', 'Kaina : ' ]
+                        writer = csv.DictWriter(irasimas_f, fieldnames=field_names)
+                        writer.writerow(i)
+
             elif f == ".json":
                 for i in listas:
                     print("json")
@@ -104,7 +120,7 @@ def skonis(f : str, t : int):
                         irasymas_f.close()
             else:
                 print("Neteisingai pasirinktas formatas")
-                print("Galimi formatai: .json arba .txt")
+                print("Galimi formatai: .json arba .txt arba .csv")
         else:
             print("Baigesi skirtas laikas")
             break
