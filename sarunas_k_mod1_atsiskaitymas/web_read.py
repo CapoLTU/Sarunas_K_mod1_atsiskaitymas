@@ -104,9 +104,9 @@ def skonis(f : str, t : int):
                         irasimas_f.write(str(i) + "\n")
                         irasimas_f.close()
 
-            elif f == "Skonis_ir_Kvapas.csv":
+            elif f == ".csv":
                 for i in listas:
-                    with open('.csv', 'a', encoding='UTF8', newline='')  as irasimas_f:
+                    with open('Skonis_ir_Kvapas.csv', 'a', encoding='UTF8', newline='')  as irasimas_f:
                         field_names = ['Produktas : ', 'Kaina : ' ]
                         writer = csv.DictWriter(irasimas_f, fieldnames=field_names)
                         writer.writerow(i)

@@ -5,7 +5,7 @@ from setuptools.command.install import install
 
 setup(
     name = "Sarunas_K_mod1_atsiskaitymas",
-    version = '0.2',
+    version = '0.3',
     author="Sarunas K",
     description="Crawler Duino.lt/Skonis_ir_kvapas.lt",
     packages= setuptools.find_packages(where="."),
